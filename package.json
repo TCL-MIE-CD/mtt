@@ -1,0 +1,30 @@
+{
+  "name": "mtt",
+  "version": "0.0.0",
+  "description": "MIE Front End Integrated Solution for J2EE Velocity.",
+  "homepage": "https://github.com/TCL-MIE-CD/mtt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TCL-MIE-CD/mtt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TCL-MIE-CD/mtt/issues"
+  },
+  "readmeFilename": "README.md",
+  "main": "index.js",
+  "bin": {
+    "mtt": "bin/mtt.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fis-parser-less": "^0.1.3",
+    "fis3": "^3.0.6",
+    "fis3-hook-module": "^1.1.1",
+    "liftoff": "^2.1.0",
+    "minimist": "^1.1.1"
+  }
+}
