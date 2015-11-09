@@ -7,7 +7,7 @@ var cli = new Liftoff({
   name: 'mtt', // 命令名字
   processTitle: 'mtt',
   moduleName: 'mtt',
-  configName: 'fis-conf',
+  configName: 'mtt-conf',
 
   // only js supported!
   extensions: {
