@@ -6,8 +6,3 @@ fis.cli.info = require("./package.json");
 
 //scaffold for mtt github
 fis.config.set("scaffold.namespace", "mtt-scaffold");
-
-//fis3 server start 可以不指定 type.
-fis.set('server.type', 'jello');
-
-//require("fis3-jello")(fis);
