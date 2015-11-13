@@ -3,6 +3,7 @@
  * Created by zhengguo.chen on 2015/11/10.
  */
 var exports = module.exports = function(fis) {
-  console.log("--------MTT JELLO--------");
+  //do nothing
+  //该配置独立到mtt-jello中了
 };
 exports.init = exports;
