@@ -8,7 +8,7 @@ var cli = new Liftoff({
   name: 'mtt', // 命令名字
   processTitle: 'mtt',
   moduleName: 'mtt',
-  configName: 'mtt-conf',
+  configName: 'fis-conf',
 
   // only js supported!
   extensions: {
@@ -42,8 +42,6 @@ cli.launch({
     case 'jello' :
       //先加载jello初始配置
       fis.require('jello')(fis);
-      //加载mtt默认配置
-      require("../config/jello")(fis);
       break;
     //todo other server types
     default :

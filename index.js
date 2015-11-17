@@ -6,3 +6,9 @@ fis.cli.info = require("./package.json");
 
 //scaffold for mtt github
 fis.config.set("scaffold.namespace", "mtt-scaffold");
+
+fis.config.set("component.github", {
+  author: "mtt-components"
+});
+
+
