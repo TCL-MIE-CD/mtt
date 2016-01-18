@@ -32,21 +32,5 @@ cli.launch({
   //reset cli by mtt
   mttCli(fis);
 
-  //severType is default to jello! @todo config this
-  var serverType = argv.type || 'jello';
-  //If server start, set serve type
-  if(argv._[0] === 'server' && argv._[1] === 'start') {
-    argv.type = serverType;
-  }
-  switch (serverType) {
-    case 'jello' :
-      //先加载jello初始配置
-      fis.require('jello')(fis);
-      break;
-    //todo other server types
-    default :
-      break;
-  }
-
   fis.cli.run(argv, env);
 });
